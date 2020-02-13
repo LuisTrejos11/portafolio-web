@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Portafolio de Luis Trejos</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+
+			<!-- logo+menu -->
+			<div class="nav row rounded-top align-items-strech justify-content-between">
+				<!-- Logotipo -->
+				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h2>Luis Trejos</h2>
+					<span class="icono icon-dot"></span>
+					<p>Desarrollador Web</p>
+				</div>
+
+				<!-- Menu -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#portafolio" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#acerca-de" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#contacto" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+
+			<!-- SLIDER -->
+			<div class="row slider">
+				<div class="col">	
+					<div class="carousel slide" id="slider" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider" data-slide-to="0" class="active"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+
+								<img src="img/slide4.jpg" alt="Slide #1" class="d-block img-fluid">
+								<div class="centrado">Centrado</div>
+
+							</div>	
+							<div class="carousel-item ">
+								<img src="img/slide2.jpg" alt="Slide #2" class="d-block img-fluid">
+							</div>	
+							<div class="carousel-item ">
+								<img src="img/slide3.jpg" alt="Slide #3" class="d-block img-fluid">
+							</div>	
+						</div>
+
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<main>	
+		<div class="container">	
+				<!--PORTAFOLIO-->
+				<div class="row portafolio" id="portafolio">
+					<div class="col">	
+						<h2 class="titulo">Portafolio</h2>
+						<div class="row galeria justify-content-center">
+							<div class="contenedor-imagen col-6 col-lg-4">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-1.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							<div class="contenedor-imagen col-12 col-lg-8">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-2.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+
+							<div class="contenedor-imagen col-12 col-lg-8">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-3.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							<div class="contenedor-imagen col-6 col-lg-4">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-4.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							<div class="contenedor-imagen col-6 col-lg-4">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-5.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							<div class="contenedor-imagen col-6 col-lg-4">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-6.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							<div class="contenedor-imagen col-6 col-lg-4">
+								<a href="#" data-toggle="modal" data-target="#modal">
+									<img src="img/img-7.jpg" class="img-fluid imagen" alt="">
+								</a>
+							</div>
+							
+							<!--VENTANA MODAL-->
+							<div class="modal fade" id="modal">
+								<div class="modal-dialog d-flex justify-content-center align-items-center">
+									<div class="modal-content">
+										<img src="img/img-1.jpg" alt="" id="imagen-modal">
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<!--Acerca de -->
+				<div class="row acerca-de align-items-center" id="acerca-de">
+					<div class="col-12 col-lg-4 foto">
+						<img src="img/foto.jpg" class="rounded-circle img-fluid" alt="">
+						<p class="nombre">Luis Trejos</p>
+					</div>
+					<div class="col-12 col-lg-8 info">
+						<h2 class="titulo">	Acerca de</h2>
+						<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae repellat, magnam, voluptatem, reiciendis sequi doloremque rerum rem consequatur assumenda nesciunt laudantium natus sapiente dolorem. Doloribus, perspiciatis repudiandae laborum distinctio.</p>
+						<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione beatae repellat, magnam, voluptatem, reiciendis sequi doloremque rerum rem consequatur assumenda nesciunt laudantium natus sapiente dolorem. Doloribus, perspiciatis repudiandae laborum distinctio.</p>
+
+						<p class="label">HTML</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 95%;">
+								95%
+							</div>
+						</div>
+						<p class="label">CSS</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 100%;">
+								100%
+							</div>
+						</div>
+						<p class="label">Javascript</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 85%;">
+								85%
+							</div>
+						</div>
+						<p class="label">PHP</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 80%;">
+								80%
+							</div>
+						</div>
+						<p class="label">Angular</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 70%;">
+								85%
+							</div>
+						</div>
+						<p class="label">MySQL</p>
+						<div class="progress">
+							<div class="progress-bar" style="width: 85%;">
+								85%
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!--CONTACTO-->
+
+				<div class="row contacto justify-content-center" id="contacto">
+					<div class="col-12 col-lg-8">
+						<h2 class="titulo">Contacto</h2>
+						<form action=" <?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="formulario" method="post">
+							<div class=" form-group row">
+								<div class="col-12 col-md-6">
+									<input type="text" name="nombre" id="" placeholder="Nombre" value="<?php if(!$enviado && isset($nombre)) echo $nombre ?>">
+								</div>
+								<div class="col-12 col-md-6">
+									<input type="email" name="correo" id="" placeholder="Correo" value="<?php if(!$enviado && isset($correo)) echo $correo ?>">
+								</div>
+							</div>
+							<textarea name="mensaje" id="" placeholder="Mensaje"><?php if(!$enviado && isset($mensaje)) echo $mensaje ?></textarea>
+							<?php if (!empty($errores)):?>
+								<div class="alert error">
+								<?php echo  $errores ?>
+								</div>
+								<?php elseif ($enviado):?>
+								<div class="alert succes">
+									<p>Enviado correctamente</p>
+								</div>	
+							<?php endif ?>	
+							<div class="form-group d-flex justify-content-center">
+								<input type="submit" class="boton" name="submit" value="Enviar">
+							</div>
+							
+						</form>
+					</div>
+				</div>
+
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="" class="icono icon-twitter twitter"></a>
+					<a href="" class="icono icon-instagram instagram"></a>
+					<a href="" class="icono icon-facebook facebook"></a>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/boostrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+	
+
+	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
